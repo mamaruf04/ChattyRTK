@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "sumit@learnwithsumit.com",
-      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-      "name": "Sumit Saha",
-      "id": 1
-    },
-    {
       "email": "akash@learnwithsumit.com",
       "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
       "name": "Akash Ahmed",
@@ -29,6 +23,12 @@
       "password": "$2a$10$/PgEbUCSL5KYzxU2rw.QheBsaypPZOhJx5C5FPwDfFUC9XoOQmN8u",
       "name": "test",
       "id": 5
+    },
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$b.CMn7tIK7kbJpdm9y88EOH36ypR33yHAWWdwXD62fGW1A30hZHe6",
+      "name": "Sumit Saha",
+      "id": 6
     }
   ],
   "conversations": [
@@ -67,6 +67,24 @@
       ],
       "message": "How are you?",
       "timestamp": 1661976143678
+    },
+    {
+      "id": 3,
+      "participants": "maruf@gmail.com-test@gmail.com",
+      "users": [
+        {
+          "email": "maruf@gmail.com",
+          "name": "Maruf",
+          "id": 4
+        },
+        {
+          "email": "test@gmail.com",
+          "name": "Test Bhao",
+          "id": 5
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
     }
   ],
   "messages": [
@@ -98,6 +116,22 @@
         "email": "sumit@learnwithsumit.com",
         "name": "Sumit Saha",
         "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "sender": {
+        "email": "maruf@gmail.com",
+        "name": "Masudul Alam",
+        "id": 4
+      },
+      "receiver": {
+        "email": "test@gmail.com",
+        "name": "Test Bhao",
+        "id": 5
       },
       "message": "How are you?",
       "timestamp": 1661976143678
